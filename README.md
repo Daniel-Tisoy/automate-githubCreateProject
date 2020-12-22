@@ -5,7 +5,6 @@ git clone "https://github.com/KalleHallden/ProjectInitializationAutomation.git"
 cd ProjectInitializationAutomation
 pip install -r requirements.txt
 touch .env
-then type in create.py 'githup token' your token
 move .my_commands.sh in the home folder
 then in home folder, open .bashrc and add 'source ./.my_commands.sh' in the last line
 then type in the terminal 'source .bashrc' from the home folder
@@ -17,5 +16,6 @@ To run the script type in 'create <name of your folder>'
 ~~~
 ## Env File Format:
 ~~~
+GITHUB_TOKEN="your github token"
 FILEPATH="/path/to/your/project/"
 ~~~
