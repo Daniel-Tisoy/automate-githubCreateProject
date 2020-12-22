@@ -6,7 +6,7 @@ cd ProjectInitializationAutomation
 pip install -r requirements.txt
 touch .env
 move .my_commands.sh in the home folder
-then in home folder, open .bashrc and add 'source ./.my_commands.sh' in the last line
+then at home folder, open .bashrc and add 'source ./.my_commands.sh' in the last line
 then type in the terminal 'source .bashrc' from the home folder
 ~~~
 [tutoral to create github token](https://docs.github.com/es/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)
