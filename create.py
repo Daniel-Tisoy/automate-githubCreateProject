@@ -17,7 +17,7 @@ path = os.getenv("FILEPATH")
 def create():
     folderName = str(sys.argv[1])
     os.makedirs(path + str(folderName))
-    user = Github('b0c8f693e87a8ab6749bd79f44bb8af6620dc012').get_user()
+    user = Github('github token').get_user()
     user.create_repo(folderName)
     logger.info("Succesfully created repository {}".format(folderName))
 
