@@ -16,6 +16,7 @@ To run the script type in 'create <name of your folder>'
 ~~~
 ## Env File Format:
 ~~~
+USERNAME="your user name"
 GITHUB_TOKEN="your github token"
 FILEPATH="/path/to/your/project/"
 ~~~

@@ -7,11 +7,12 @@ function create() {
     python3 create.py $1
     deactivate
     cd $FILEPATH$1
-    git init
+    echo '# '$1 > README.md
+    git init 
+    git add README.md
+    git commit -m 'first commit'
+    git branch -M master
     git remote add origin git@github.com:$USERNAME/$1.git
-    echo '# $1' > readme.md
-    git add .
-    git commit -m 'initial commit'
     git push -u origin master
     code .
     echo 'launching visual studio code :)'
