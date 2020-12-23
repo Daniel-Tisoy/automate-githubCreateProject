@@ -1,4 +1,5 @@
 # project_automation
+An automation to create project folders, initial commit and create a repository on github
 ## Install 
 ~~~
 git clone "https://github.com/KalleHallden/ProjectInitializationAutomation.git"
