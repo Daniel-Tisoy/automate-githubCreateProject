@@ -3,7 +3,9 @@ An automation to create project folders, initial commit and create a repository 
 ## Install 
 ~~~
 git clone "https://github.com/luis-dt/project_automation.git"
-cd ProjectInitializationAutomation
+cd project_automation
+virtualenv env
+env/bin/activate
 pip install -r requirements.txt
 touch .env
 move .my_commands.sh in the home folder
