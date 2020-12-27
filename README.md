@@ -7,7 +7,7 @@ cd project_automation
 virtualenv env
 env/bin/activate
 pip install -r requirements.txt
-touch .env
+touch .env #(and add your information like the .env file format)
 move .my_commands.sh in the home folder
 then at home folder, open .bashrc and add 'source ./.my_commands.sh' in the last line
 then type in the terminal 'source .bashrc' from the home folder
@@ -17,7 +17,7 @@ then type in the terminal 'source .bashrc' from the home folder
 ~~~
 To run the script type in 'create <name of your folder>'
 ~~~
-## Env File Format:
+## .env File Format:
 ~~~
 USERNAME="your user name"
 GITHUB_TOKEN="your github token"
