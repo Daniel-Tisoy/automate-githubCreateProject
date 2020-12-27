@@ -2,7 +2,7 @@
 An automation to create project folders, initial commit and create a repository on github
 ## Install 
 ~~~
-git clone "https://github.com/KalleHallden/ProjectInitializationAutomation.git"
+git clone "https://github.com/luis-dt/project_automation.git"
 cd ProjectInitializationAutomation
 pip install -r requirements.txt
 touch .env
