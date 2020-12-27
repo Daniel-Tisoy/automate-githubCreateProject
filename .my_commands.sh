@@ -1,7 +1,7 @@
 #! /bin/bash
 
 function create() {
-    cd ~/Documents/projects/git_automate
+    cd ~/Documents/projects/project_automation # change to path where you have the project 'project_automation'
     source env/bin/activate
     source .env
     python3 create.py $1
