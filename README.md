@@ -23,3 +23,8 @@ USERNAME="your user name"
 GITHUB_TOKEN="your github token"
 FILEPATH="/path/to/your/project/"
 ~~~
+
+### install virtualenv
+~~~
+pip3 install virtualenv OR sudo apt install python3-virtualenv
+~~~
