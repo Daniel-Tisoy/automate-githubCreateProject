@@ -17,7 +17,7 @@ then type in the terminal 'source .bashrc' from the home folder
 [tutoral to create github token](https://docs.github.com/es/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)
 ## Usage
 ~~~
-To run the script type in 'create <name of your folder>'
+To run the script type in 'create <name of your folder>' ex: >>> create my_project
 ~~~
 ## .env File Format:
 ~~~
