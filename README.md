@@ -1,6 +1,7 @@
 # project_automation
 An automation to create project folders, initial commit and create a repository on github
 
+- Credits to [Kalle Hallden](https://www.youtube.com/c/KalleHallden)
 
 ## Install 
 ~~~
