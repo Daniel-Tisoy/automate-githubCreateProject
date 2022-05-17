@@ -1,5 +1,9 @@
 # project_automation
-An automation to create project folders, initial commit and create a repository on github
+Just write in the terminal:
+
+$ create [name of the project]
+
+and it starts an automation from create a project folder (into the folder of projects), initial commit and create a repository on github (working on ubuntu 20 LTS)
 
 - Credits to [Kalle Hallden](https://www.youtube.com/c/KalleHallden)
 
